@@ -15,4 +15,4 @@ jobs:
 
       - name: Rsync to local folder
         run: |
-          rsync -av ./ /var/www/html
+          rsync -av ./ /var/www/html/html
